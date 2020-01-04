@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="83" failures="0" disabled="0" errors="0" time="0.447" timestamp="2019-12-19T22:46:18" name="AllTests">
+  <testsuite name="Route" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-19T22:46:18">
+    <testcase name="NameAccessorMutator" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="Route" />
+    <testcase name="DepartureTimeAccessorMutator" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="Route" />
+    <testcase name="ArrivalTimeAccessorMutator" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="Route" />
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="Route" />
+    <testcase name="NonDefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="Route" />
+    <testcase name="Display" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="Route" />
+    <testcase name="SaveString" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="Route" />
+  </testsuite>
+  <testsuite name="CheckedRoute" tests="6" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-19T22:46:18">
+    <testcase name="Inheritance" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CheckedRoute" />
+    <testcase name="AccessorsMutators" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CheckedRoute" />
+    <testcase name="NonDefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CheckedRoute" />
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CheckedRoute" />
+    <testcase name="Display" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CheckedRoute" />
+    <testcase name="SaveString" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CheckedRoute" />
+  </testsuite>
+  <testsuite name="ConnectionRoute" tests="6" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-19T22:46:18">
+    <testcase name="Inheritance" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="ConnectionRoute" />
+    <testcase name="AccessorsMutators" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="ConnectionRoute" />
+    <testcase name="NonDefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="ConnectionRoute" />
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="ConnectionRoute" />
+    <testcase name="Display" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="ConnectionRoute" />
+    <testcase name="SaveString" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="ConnectionRoute" />
+  </testsuite>
+  <testsuite name="RouteManager" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-19T22:46:18">
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="RouteManager" />
+    <testcase name="AddRoute" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="RouteManager" />
+    <testcase name="AddCheckedRoute" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="RouteManager" />
+  </testsuite>
+  <testsuite name="CreateCheckedRoute" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-19T22:46:18">
+    <testcase name="CheckName" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CreateCheckedRoute" />
+    <testcase name="CheckDepartureTime" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CreateCheckedRoute" />
+    <testcase name="CheckTakeOffTime" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CreateCheckedRoute" />
+    <testcase name="CheckArrivalTime" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CreateCheckedRoute" />
+  </testsuite>
+  <testsuite name="CreateConnectionRoute" tests="2" failures="0" disabled="0" errors="0" time="0.001" timestamp="2019-12-19T22:46:18">
+    <testcase name="CheckSource" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CreateConnectionRoute" />
+    <testcase name="CheckDestination" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="CreateConnectionRoute" />
+  </testsuite>
+  <testsuite name="DisplayRoutes" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-19T22:46:18">
+    <testcase name="OneRoute" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="DisplayRoutes" />
+    <testcase name="MultipleRoutes" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="DisplayRoutes" />
+  </testsuite>
+  <testsuite name="GetTimeToLeave" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-19T22:46:18">
+    <testcase name="Time1" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="GetTimeToLeave" />
+    <testcase name="Time2" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="GetTimeToLeave" />
+  </testsuite>
+  <testsuite name="FindRoute" tests="8" failures="0" disabled="0" errors="0" time="0.003" timestamp="2019-12-19T22:46:18">
+    <testcase name="NoRoutes" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="FindRoute" />
+    <testcase name="OneRouteNoMatch" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="FindRoute" />
+    <testcase name="TwoRoutesNoMatch" status="run" result="completed" time="0.001" timestamp="2019-12-19T22:46:18" classname="FindRoute" />
+    <testcase name="MultipleRoutesNoMatch" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="FindRoute" />
+    <testcase name="OneRouteMatch" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="FindRoute" />
+    <testcase name="MultipleRoutesBestFirst" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="FindRoute" />
+    <testcase name="MultipleRoutesBestSecond" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="FindRoute" />
+    <testcase name="MultipleRoutesBestLast" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="FindRoute" />
+  </testsuite>
+  <testsuite name="Input" tests="11" failures="0" disabled="0" errors="0" time="0.071" timestamp="2019-12-19T22:46:18">
+    <testcase name="CreateExit" status="run" result="completed" time="0.004" timestamp="2019-12-19T22:46:18" classname="Input" />
+    <testcase name="DisplayExit" status="run" result="completed" time="0.006" timestamp="2019-12-19T22:46:18" classname="Input" />
+    <testcase name="CreateDisplayExit" status="run" result="completed" time="0.002" timestamp="2019-12-19T22:46:18" classname="Input" />
+    <testcase name="DisplayCreateExit" status="run" result="completed" time="0.008" timestamp="2019-12-19T22:46:18" classname="Input" />
+    <testcase name="CreateCheckedDisplayExit" status="run" result="completed" time="0.008" timestamp="2019-12-19T22:46:18" classname="Input" />
+    <testcase name="DisplayCreateCheckedExit" status="run" result="completed" time="0.006" timestamp="2019-12-19T22:46:18" classname="Input" />
+    <testcase name="CreateDisplayCreateDisplayExit" status="run" result="completed" time="0.003" timestamp="2019-12-19T22:46:18" classname="Input" />
+    <testcase name="CreateFindExit" status="run" result="completed" time="0.005" timestamp="2019-12-19T22:46:18" classname="Input" />
+    <testcase name="FindCreateExit" status="run" result="completed" time="0.012" timestamp="2019-12-19T22:46:18" classname="Input" />
+    <testcase name="DisplayFindExit" status="run" result="completed" time="0.005" timestamp="2019-12-19T22:46:18" classname="Input" />
+    <testcase name="FindDisplayExit" status="run" result="completed" time="0.01" timestamp="2019-12-19T22:46:18" classname="Input" />
+  </testsuite>
+  <testsuite name="GetFilename" tests="2" failures="0" disabled="0" errors="0" time="0.001" timestamp="2019-12-19T22:46:18">
+    <testcase name="Filename1" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="GetFilename" />
+    <testcase name="Filename2" status="run" result="completed" time="0.001" timestamp="2019-12-19T22:46:18" classname="GetFilename" />
+  </testsuite>
+  <testsuite name="SaveFile" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-19T22:46:18">
+    <testcase name="CreateFile" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="SaveFile" />
+    <testcase name="OneRoute" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="SaveFile" />
+    <testcase name="ThreeRoutes" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="SaveFile" />
+  </testsuite>
+  <testsuite name="LoadFile_" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-19T22:46:18">
+    <testcase name="NoFile" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="LoadFile_" />
+  </testsuite>
+  <testsuite name="LoadFile" tests="2" failures="0" disabled="0" errors="0" time="0.001" timestamp="2019-12-19T22:46:18">
+    <testcase name="OneRoute" status="run" result="completed" time="0" timestamp="2019-12-19T22:46:18" classname="LoadFile" />
+    <testcase name="ThreeRoutes" status="run" result="completed" time="0.001" timestamp="2019-12-19T22:46:18" classname="LoadFile" />
+  </testsuite>
+  <testsuite name="DriverSaveFile" tests="11" failures="0" disabled="0" errors="0" time="0.076" timestamp="2019-12-19T22:46:18">
+    <testcase name="SaveExit" status="run" result="completed" time="0.005" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+    <testcase name="DisplaySaveExit" status="run" result="completed" time="0.008" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+    <testcase name="SaveDisplayExit" status="run" result="completed" time="0.007" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+    <testcase name="SaveCreateExit" status="run" result="completed" time="0.011" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+    <testcase name="CreateSaveExit" status="run" result="completed" time="0.002" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+    <testcase name="CreateCheckedSaveExit" status="run" result="completed" time="0.008" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+    <testcase name="FindSaveExit" status="run" result="completed" time="0.005" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+    <testcase name="SaveFindExit" status="run" result="completed" time="0.008" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+    <testcase name="SaveLoadExit" status="run" result="completed" time="0.007" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+    <testcase name="LoadSaveExit" status="run" result="completed" time="0.004" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+    <testcase name="CreateCreateCheckedSaveExit" status="run" result="completed" time="0.01" timestamp="2019-12-19T22:46:18" classname="DriverSaveFile" />
+  </testsuite>
+  <testsuite name="DriverLoadFile" tests="8" failures="0" disabled="0" errors="0" time="0.111" timestamp="2019-12-19T22:46:18">
+    <testcase name="LoadExit" status="run" result="completed" time="0.007" timestamp="2019-12-19T22:46:18" classname="DriverLoadFile" />
+    <testcase name="DisplayLoadExit" status="run" result="completed" time="0.004" timestamp="2019-12-19T22:46:18" classname="DriverLoadFile" />
+    <testcase name="LoadDisplayExit" status="run" result="completed" time="0.01" timestamp="2019-12-19T22:46:18" classname="DriverLoadFile" />
+    <testcase name="LoadCreateExit" status="run" result="completed" time="0.006" timestamp="2019-12-19T22:46:18" classname="DriverLoadFile" />
+    <testcase name="CreateLoadExit" status="run" result="completed" time="0.009" timestamp="2019-12-19T22:46:18" classname="DriverLoadFile" />
+    <testcase name="FindLoadExit" status="run" result="completed" time="0.007" timestamp="2019-12-19T22:46:18" classname="DriverLoadFile" />
+    <testcase name="LoadFindExit" status="run" result="completed" time="0.005" timestamp="2019-12-19T22:46:18" classname="DriverLoadFile" />
+    <testcase name="LoadDisplayExitOutput" status="run" result="completed" time="0.063" timestamp="2019-12-19T22:46:18" classname="DriverLoadFile" />
+  </testsuite>
+  <testsuite name="Driver" tests="5" failures="0" disabled="0" errors="0" time="0.177" timestamp="2019-12-19T22:46:18">
+    <testcase name="CreateDisplayExit" status="run" result="completed" time="0.018" timestamp="2019-12-19T22:46:18" classname="Driver" />
+    <testcase name="CreateCreateDisplayExit" status="run" result="completed" time="0.049" timestamp="2019-12-19T22:46:18" classname="Driver" />
+    <testcase name="CreateCreateCheckedDisplayExit" status="run" result="completed" time="0.043" timestamp="2019-12-19T22:46:18" classname="Driver" />
+    <testcase name="CreateCreateConnectionDisplayExit" status="run" result="completed" time="0.053" timestamp="2019-12-19T22:46:18" classname="Driver" />
+    <testcase name="CreateCreateCheckedFindExit" status="run" result="completed" time="0.014" timestamp="2019-12-19T22:46:18" classname="Driver" />
+  </testsuite>
+</testsuites>

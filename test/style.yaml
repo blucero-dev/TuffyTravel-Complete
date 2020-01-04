@@ -1,0 +1,97 @@
+---
+MainSourceFile:  /home/student/tuffytravel-08-13rianlucero/route.cpp
+Diagnostics:     
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''sr'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      2520
+    FilePath:        ./route.hpp
+    Replacements:    
+      - FilePath:        ./route.hpp
+        Offset:          98
+        Length:          0
+        ReplacementText: '#include <utility>
+'
+      - FilePath:        ./route.hpp
+        Offset:          2520
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        ./route.hpp
+        Offset:          2522
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''dr'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      2594
+    FilePath:        ./route.hpp
+    Replacements:    
+      - FilePath:        ./route.hpp
+        Offset:          2594
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        ./route.hpp
+        Offset:          2596
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''sr'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      2520
+    FilePath:        route.hpp
+    Replacements:    
+      - FilePath:        route.hpp
+        Offset:          98
+        Length:          0
+        ReplacementText: '#include <utility>
+'
+      - FilePath:        route.hpp
+        Offset:          2520
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        route.hpp
+        Offset:          2522
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''dr'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      2594
+    FilePath:        route.hpp
+    Replacements:    
+      - FilePath:        route.hpp
+        Offset:          2594
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        route.hpp
+        Offset:          2596
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''sr'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      2520
+    FilePath:        route.hpp
+    Replacements:    
+      - FilePath:        route.hpp
+        Offset:          98
+        Length:          0
+        ReplacementText: '#include <utility>
+'
+      - FilePath:        route.hpp
+        Offset:          2520
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        route.hpp
+        Offset:          2522
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''dr'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      2594
+    FilePath:        route.hpp
+    Replacements:    
+      - FilePath:        route.hpp
+        Offset:          2594
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        route.hpp
+        Offset:          2596
+        Length:          0
+        ReplacementText: ')'
+...

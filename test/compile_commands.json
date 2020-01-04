@@ -1,0 +1,17 @@
+[
+ {
+ "directory" : "/home/student/tuffytravel-08-13rianlucero",
+ "command" : "clang++ -std=c++17 tuffytravel.cpp -o tuffytravel",
+ "file" : "/home/student/tuffytravel-08-13rianlucero/tuffytravel.cpp"
+ },
+ {
+ "directory" : "/home/student/tuffytravel-08-13rianlucero",
+ "command" : "clang++ -std=c++17 route.cpp -o tuffytravel",
+ "file" : "/home/student/tuffytravel-08-13rianlucero/route.cpp"
+ },
+ {
+ "directory" : "/home/student/tuffytravel-08-13rianlucero",
+ "command" : "clang++ -std=c++17 route.hpp -o tuffytravel",
+ "file" : "/home/student/tuffytravel-08-13rianlucero/route.hpp"
+ },
+]
