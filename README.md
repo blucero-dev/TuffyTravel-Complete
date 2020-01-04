@@ -8,21 +8,22 @@ Fall 2019
 (Rev. 1-20190809)
 
 Learning objectives
-Design and implement software that makes appropriate use of fundamental programming constructs and data structures (e.g., expressions, conditions, loops, functions, primitive data types, arrays).
-Design and implement software that makes appropriate use of object-oriented concepts (e.g., classes, objects, methods, composition, inheritance, abstract classes, polymorphism).
-Design and implement software that makes appropriate use of advanced programming concepts (e.g., recursion, pointers, memory allocation, STL, file input/output, exception handling).
-Demonstrate proper use of encapsulation and decoupling.
-Demonstrate proper use of coding standards.
-Write appropriate inline comments to help other developers understand and reuse code.
-Demonstrate the ability to utilize IDEs to optimize software development.
-Project specifications
-The goal of this project is to develop a travel planning application. Users will use a menu-based command-line interface to interact with the software. Its major features are the creation of travel routes, adding routes to a travel schedule, and saving and loading routes into text files. 
 
-The software should be designed using the object-oriented programming paradigm so that the code can easily be modified, extended, and scaled by other developers. It is equally important to provide sufficient internal documentation to help other developers understand the code and encourage them to contribute to its development.
+  Design and implement software that makes appropriate use of fundamental programming constructs and data structures (e.g., expressions, conditions, loops, functions, primitive data types, arrays).
+  Design and implement software that makes appropriate use of object-oriented concepts (e.g., classes, objects, methods, composition, inheritance, abstract classes, polymorphism).
+  Design and implement software that makes appropriate use of advanced programming concepts (e.g., recursion, pointers, memory allocation, STL, file input/output, exception handling).
+  Demonstrate proper use of encapsulation and decoupling.
+  Demonstrate proper use of coding standards.
+  Write appropriate inline comments to help other developers understand and reuse code.
+  Demonstrate the ability to utilize IDEs to optimize software development.
+ Project specifications
+  The goal of this project is to develop a travel planning application. Users will use a menu-based command-line interface to interact with the software. Its major features are the creation of travel routes, adding routes to a travel schedule, and saving and loading routes into text files. 
 
-The software will be delivered in incremental versions or milestones over the course of the semester. Descriptions of the eight milestones are presented below, but technical details will be provided in your GitHub repositories for each milestone. The deadlines listed for each milestone may change depending on the class’ progress. In such cases, I will announce changes in class and/or through Piazza.
+  The software should be designed using the object-oriented programming paradigm so that the code can easily be modified, extended, and scaled by other developers. It is equally important to provide sufficient internal documentation to help other developers understand the code and encourage them to contribute to its development.
+
+  The software will be delivered in incremental versions or milestones over the course of the semester. Descriptions of the eight milestones are presented below, but technical details will be provided in your GitHub repositories for each milestone. The deadlines listed for each milestone may change depending on the class’ progress. In such cases, I will announce changes in class and/or through Piazza.
 Grading
-Each milestone will be graded separately using the same lab exercise checking stages, but with an additional reflection component. Your final project grade is the average of all your milestone grades.
+  Each milestone will be graded separately using the same lab exercise checking stages, but with an additional reflection component. Your final project grade is the average of all your milestone grades.
 
 Stage 1. Compilation (5%) will be assessed by checking whether your code compiles correctly assuming you put in sufficient effort in solving the problem. Minimal code or code that does not attempt to solve the problem will not get a compilation grade.
 
@@ -33,13 +34,13 @@ Stage 3. Design (40%) will be assessed by checking whether your code uses the ap
 Stage 4. Readability (10%) will be assessed by checking whether your code passess the style and format check, as well as how well it follows the proper naming conventions, and provides sufficient internal documentation for complex code. Documentation is often an art, but Google’s style guide is a good starting point (https://google.github.io/styleguide/cppguide.html). Coding styles will be discussed in class and shown in our code samples.
 Reflection (5%) will be assessed by checking whether you appropriately accomplished the reflection form. The form will ask you to provide information about your submission such as a description of your program, the test cases that you identified, and a discussion about the issues you encountered while developing your program.
 
-
+_____________________________________________________________________________________
 Milestone 1
 Deadline: September 20, 11:59 pm
 
 Create a program that asks the user to input three bus departure times. The system should also ask the user to provide the name of the route to make it easy to distinguish. It should also ask the passenger what time they want to leave. Use conditions to identify the bus route that the passenger should take if they want to leave by the time they specified.
 
-
+_________________________________________________________________________________________
 Milestone 2
 Deadline: October 11, 11:59 pm
 
@@ -51,7 +52,7 @@ Modify your Milestone 1 program so that it calls the create_route function to in
 
 The code should be organized so that class and function prototypes are placed in header files (.hpp) while their implementations are placed in source files (.cpp)
 
-
+___________________________________________________________________________________________
 Milestone 3
 Deadline: October 21, 11:59 pm
 
@@ -61,7 +62,7 @@ Create an array of Route objects in the main function. Whenever the user adds a 
 
 Create a display_routes function that accepts the array and its size as a parameter, then displays information about each Route object in the array. Take note that you can also call each Route object’s display function instead of its accessor and mutator functions. The display_routes function should be called whenever the user asks to display routes.
 
-
+__________________________________________________________________________________________________
 Milestone 4
 Deadline: November 4, 11:59 pm
 
@@ -71,7 +72,7 @@ Create a find_route function that accepts the Route object array, its size, and 
 
 When F is selected on the menu, it should ask the user to provide their time to leave and call the find_route function with the appropriate parameter values.
 
-
+____________________________________________________________________________________________________
 Milestone 5
 Deadline: November 22, 11:59 pm
 
@@ -83,7 +84,7 @@ Create a load_routes function that accepts tha array, a size reference, and a fi
 
 The save_routes and load_routes functions should be called with the appropriate parameter values when the user requests to save or load the routes through the menu. Make sure that the functionality for adding and displaying bus routes continue to work for this Milestone.
 
-
+_____________________________________________________________________________________________________
 Milestone 6
 Deadline: December 6, 11:59 pm
 
@@ -93,7 +94,7 @@ Specifically, the RouteManager object should now contain the array of Route obje
 
 The menu should be updated to use objects and call their appropriate member functions.
 
-
+_____________________________________________________________________________________________________
 Milestone 7
 Deadline: December 19, 11:59 pm
 
@@ -105,7 +106,7 @@ Apply inheritance and polymorphism so that Route and CheckedRoute objects can be
 
 Update the menu to create a checked route when the user presses C. Call the create_checked_route function and pass all necessary parameter values.
 
-
+_______________________________________________________________________________________________________________
 Milestone 8 (Extra credit)
 Deadline: December 19, 11:59 pm
 
@@ -116,3 +117,5 @@ Create a create_connection_route member function in the RouteManager class that 
 Apply inheritance and polymorphism so that Route, CheckedRoute, and ConnectionRoute objects can be stored in the same array inside the RouteManager. The other functionalities such as adding, displaying, finding, saving, and loading routes should still work as expected.
 
 Update the menu to create a connection route when the user presses T. Call the create_connection_route function and pass all necessary parameter values.
+
+
